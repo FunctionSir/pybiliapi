@@ -6,6 +6,7 @@ aid(bvid) BV2AV int <br>
 cid(aid) 获取cid int <br>
 cover(aid) 获取封面（URL）str <br>
 view(aid) 获取观看量 int <br>
+video_p(aid) 分P数 int <br>
 like(aid) 获取赞数 int <br>
 favorite(aid) 获取收藏数 int <br>
 danmaku(aid) 获取弹幕数 int <br>

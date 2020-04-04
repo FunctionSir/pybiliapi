@@ -39,6 +39,10 @@ def view(aid):
     response = requests.get(url=base+'aid='+str(aid), headers=headers)
     jdata = json.loads(response.text)
     return jdata['data']['stat']['view']
+def video_p(aid)
+    response = requests.get(url=base+'aid='+str(aid), headers=headers)
+    jdata = json.loads(response.text)
+    return jdata['data']['videos']
 def like(aid):
     response = requests.get(url=base+'aid='+str(aid), headers=headers)
     jdata = json.loads(response.text)
