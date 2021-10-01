@@ -1,11 +1,11 @@
 # pybiliapi
 用API获取B站上的视频信息等等。 <br>
-她使用宽松的MIT许可证（见LICENSE）。 <br>
-在遵守MIT许可证（见LICENSE）的前提下可以做任何更改等。比如裁剪不需要的部分使之更轻，更小。 <br>
+她使用宽松的MIT许可证（见LICENSE文件）。 <br>
+在遵守MIT许可证（见LICENSE文件）的前提下可以做任何更改等。比如裁剪不需要的部分使之更轻，更小。 <br>
 ## 使用方法
 简单粗暴地扔到你的程序文件目录，import之即可。 <br>
 要想裁剪她同样简单粗暴，删掉不用的函数即可。 <br>
-把相关函数等拷贝至自己的程序也是可以的，只要遵守MIT许可证（见LICENSE）。 <br>
+把相关函数等拷贝至自己的程序也是可以的，只要遵守MIT许可证（见LICENSE文件）。 <br>
 ## 函数说明
 bvid(aid) AV2BV str <br>
 aid(bvid) BV2AV int <br>
