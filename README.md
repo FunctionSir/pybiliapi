@@ -26,6 +26,6 @@ xml_danmaku_url(aid) 获取XML弹幕文件的URL str <br>
 xml_danmaku_text(aid) 获取XML弹幕文件内容 str <br>
 ## 使用样例
 ````python
-import biliapi as ba
-ba.view(ba.aid('BV17x411w7KC')) 
+import biliapi
+biliapi.view(ba.aid('BV17x411w7KC')) 
 ````
