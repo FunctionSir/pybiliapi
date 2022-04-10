@@ -1,7 +1,7 @@
 # pybiliapi
 用API获取B站上的视频信息等等。 <br>
-她使用宽松的MIT许可证（见LICENSE文件）。 <br>
-在遵守MIT许可证（见LICENSE文件）的前提下可以做任何更改等。比如裁剪不需要的部分使之更轻，更小。 <br>
+她使用LGPL v3许可证（见LICENSE文件）。 <br>
+在遵守LGPL v3许可证（见LICENSE文件）的前提下可以做任何更改等。比如裁剪不需要的部分使之更轻，更小。 <br>
 ## 使用方法
 简单粗暴地扔到你的程序文件目录，import之即可。此模块无需使用pip获取，也无法使用pip获取。 <br>
 要想裁剪她同样简单粗暴，删掉不用的函数即可。 <br>
@@ -29,3 +29,5 @@ xml_danmaku_text(aid) 获取XML弹幕文件内容 str <br>
 import biliapi
 biliapi.view(ba.aid('BV17x411w7KC')) 
 ````
+## 关于LGPL不同版本间及与GPL许可证之间的不兼容问题的说明
+特在此说明: 您可以视为此程序遵循LGPL v2.1及之后的任何版本, 或GPL v2及之后的任何版本.
