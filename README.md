@@ -1,16 +1,14 @@
 # pybiliapi
-用API获取B站上的视频信息等等。 <br>
-她使用LGPL v3许可证（见LICENSE文件）。 <br>
-在遵守LGPL v3许可证（见LICENSE文件）的前提下可以做任何更改等。比如裁剪不需要的部分使之更轻，更小。 <br>
+用API获取B站上的视频信息等等.  <br>
 ## 使用方法
-简单粗暴地扔到你的程序文件目录，import之即可。此模块无需使用pip获取，也无法使用pip获取。 <br>
-要想裁剪她同样简单粗暴，删掉不用的函数即可。 <br>
-把相关函数等拷贝至自己的程序也是可以的，只要遵守MIT许可证（见LICENSE文件）。 <br>
+简单粗暴地扔到你的程序文件目录, import之即可. 此模块无需使用pip获取,也无法使用pip获取.  <br>
+要想裁剪她同样简单粗暴,删掉不用的函数即可.  <br>
+把相关函数等拷贝至自己的程序也是可以的, 只要遵守许可证要求 (见LICENSE文件及README.md文件最下方的说明) .  <br>
 ## 函数说明
 bvid(aid) AV2BV str <br>
 aid(bvid) BV2AV int <br>
 cid(aid) 获取cid int <br>
-cover(aid) 获取封面（URL）str <br>
+cover(aid) 获取封面URL str <br>
 view(aid) 获取观看量 int <br>
 video_p(aid) 分P数 int <br>
 like(aid) 获取赞数 int <br>
